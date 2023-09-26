@@ -1,4 +1,4 @@
-import App from './App.svelte';
+import App from './Componentes/singin-page/singin-page.svelte';
 
 const app = new App({
 	target: document.body,
