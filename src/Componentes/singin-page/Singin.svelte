@@ -1,4 +1,3 @@
-
 <body>
   <div>
     <div class="abc">
@@ -16,8 +15,8 @@
               <span id="exampleInputPassword1" class="form-text">Deve ter de 8 a 20 caracteres</span>
               <h6>Cadastre-se</h6>
           </div>
-          <button href="PG_Inicial.html" class="btn btn-primary">ok</button>
-          <a href="PG_Inicial.html" class="btn btn-primary">Visitante</a>
+          <button href="" class="btn btn-primary">ok</button>
+          <a href="PaginaInicial.svelte" class="btn btn-primary">Visitante</a>
       </form>
       
   </div>
