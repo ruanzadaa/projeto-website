@@ -1,35 +1,48 @@
 
+<head>
 
-<body>
-    <div>
-        <h1 class="text">Pagina Inicial</h1>
-    </div>
-    <div class="align-column">
-       
-        <Button label="singin" estado="singin"/>
+</head>
+    <body>
+        <header>
+            <h1>LastOption</h1>
+        </header>
         
+        <nav>
+            <a href="#">Home</a> |
+            <a href="#">Sobre</a> |
+            <a href="#">Contato</a> |
+            <a href="#">Login</a>
+        </nav>
+        
+        <section>
+            <h2>Bem-vindo ao LastOption!</h2>
+        </section>
+        
+    </body>
     
-        
-        
-        </div>
-</body>
+    
+    <style>
+         body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #800780;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+        }
+        nav {
+            background-color: #000000;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+        }
+        section {
+            margin: 20px;
+            padding: 10px;
+            color: #000000;
+        }
 
-<style>
-.text{
-    color: rgb(0, 0, 0);
-    text-align: center;
-    height: 50px;
-}
-
-.butu{
-    color: #f80606;
-    background-color: rgb(255, 255, 255);
-    border-color: #5900ff;
-    border-style: solid;
-    border-width: 20px;
-    background: fixed;
-   
-  
-   
-}
-</style>
+    </style>
